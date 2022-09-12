@@ -23,5 +23,10 @@ public class Application {
     String home() {
         return config.getMessage();
     }
+	
+    @RequestMapping("/utini")
+    String utini() {
+        return "utini message";
+    }
 
 }
